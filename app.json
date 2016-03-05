@@ -1,0 +1,22 @@
+{
+  "name": "memes_v2",
+  "description": "",
+  "scripts": {
+  },
+  "env": {
+    "BOT_ID": {
+      "required": true
+    },
+    "GROUP_ID": {
+      "required": true
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "urn:buildpack:heroku/nodejs"
+    }
+  ]
+}
